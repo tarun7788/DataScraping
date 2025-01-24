@@ -46,7 +46,7 @@ The profile URLs should be stored in a CSV file (profile_urls_file.csv) with eac
 The project structure should look like this
 ```bash
 .
-├── scraper_script.py           # The main scraping script
+├── scrap.py           # The main scraping script
 ├── profile_urls_file.csv       # CSV file with LinkedIn URLs to scrape
 ├── config.ini                  # File for sensitive data like login Credentials.
 ├── requirements.txt            # File contaning the requirement names
@@ -58,7 +58,7 @@ The project structure should look like this
 
 ```bash
 
-python scraper_script.py
+python scrap.py
 
 ```
 
